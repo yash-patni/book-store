@@ -1,17 +1,17 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Course from "../components/Course";
+import About from "../components/About";
 import Footer from "../components/Footer";
-function Courses() {
+function Abouts() {
   return (
     <>
       <Navbar />
-      <div className="">
-        <Course />
+      <div className=" min-h-screen">
+        <About />
       </div>
       <Footer />
     </>
   );
 }
 
-export default Courses;
+export default Abouts;
